@@ -55,7 +55,7 @@ export class ReadingPage {
 
       setTimeout(() => {
        resolve();
-      }, 750*3);
+      }, 750*1);
      });
     });
    })

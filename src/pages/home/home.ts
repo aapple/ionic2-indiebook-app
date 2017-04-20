@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
 import { NavController, MenuController } from 'ionic-angular';
-import { HomeTabPage } from '../home-tab/home-tab';
-import { LikesTabPage } from '../likes-tab/likes-tab';
+import { BookStoreTabPage } from '../book-store-tab/book-store-tab';
 import { MyBooksTabPage } from '../my-books-tab/my-books-tab';
-import { SearchTabPage } from '../search-tab/search-tab';
+import { CommentTabPage } from '../comment-tab/comment-tab';
 
 @Component({
   selector: 'page-home',
@@ -12,10 +11,9 @@ import { SearchTabPage } from '../search-tab/search-tab';
 })
 export class HomePage {
 
-  homeTab = HomeTabPage;
-  likesTab = LikesTabPage;
   mybooksTab = MyBooksTabPage;
-  searchTab = SearchTabPage;
+  bookStoreTab = BookStoreTabPage;
+  commentTab = CommentTabPage;
 
   constructor(public navCtrl: NavController, public menuCtrl: MenuController) {
 

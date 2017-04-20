@@ -29,6 +29,8 @@ import { ReadingToolsComponent } from '../components/reading-tools/reading-tools
 
 import { BookPageService } from '../pages/reading/book-page';
 import { BookOutlineService } from '../pages/reading/book-outline';
+import { BookStoreTabPage } from "../pages/book-store-tab/book-store-tab";
+import { CommentTabPage } from "../pages/comment-tab/comment-tab";
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import { BookOutlineService } from '../pages/reading/book-outline';
     HomeTabPage,
     LikesTabPage,
     MyBooksTabPage,
+    BookStoreTabPage,
+    CommentTabPage,
     SearchTabPage,
     BookDetailsPage,
     PublisherPage,
@@ -63,6 +67,8 @@ import { BookOutlineService } from '../pages/reading/book-outline';
     HomeTabPage,
     LikesTabPage,
     MyBooksTabPage,
+    BookStoreTabPage,
+    CommentTabPage,
     SearchTabPage,
     BookDetailsPage,
     PublisherPage,

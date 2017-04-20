@@ -13,8 +13,7 @@ export class BookDetailsPage {
   ionViewDidLoad() {
   }
 
-  readBook()
-  {
+  readBook() {
    this.navCtrl.push(ReadingPage);
   }
 }

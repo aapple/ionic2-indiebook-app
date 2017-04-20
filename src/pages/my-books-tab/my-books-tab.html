@@ -1,11 +1,3 @@
-<ion-content>
-  <ion-list>
-    <ion-list-header>Read Now
-    </ion-list-header>
-    <book></book>
-    <ion-list-header>Purchased
-    </ion-list-header>
-    <book></book>
-    <book></book>
-  </ion-list>
+<ion-content class="card-background-page">
+  <book *ngFor="let item of [1,2,3,4]"></book>
 </ion-content>

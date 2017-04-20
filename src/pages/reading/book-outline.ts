@@ -6,8 +6,17 @@ export class BookOutlineService{
   return new Promise((resolve, reject) => resolve([
    {
     page: 1,
-    title: 'Title'
-   }
+    title: 'Title1'
+   }, {
+      page: 10,
+      title: 'Title2'
+    },{
+      page: 11,
+      title: 'Title3'
+    },{
+      page: 12,
+      title: 'Title4'
+    },
   ]));
  }
 }
