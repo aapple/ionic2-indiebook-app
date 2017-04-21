@@ -23,12 +23,11 @@ tmp/
 temp/
 hooks/
 platforms/
-plugins/
 plugins/android.json
 plugins/ios.json
 www/
 $RECYCLE.BIN/
-
+ionic2-indiebook-app.iml
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
